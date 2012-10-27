@@ -1,0 +1,365 @@
+<ui>
+  <device width="1280" height="720" background="#000000ff" />
+  <asset id="1" path="apps/camera-photo.png" />
+  <asset id="2" path="apps/audio-input-microphone.png" />
+  <asset id="3" path="apps/web-browser.png" />
+  <asset id="4" path="apps/system-software-update.png" />
+  <asset id="5" path="apps/config-users.png" />
+  <asset id="6" path="apps/accessories-text-editor.png" />
+  <asset id="7" path="apps/accessories-calculator.png" />
+  <asset id="8" path="emblems/normal-maps/emblem-synchronizing.png" />
+  <asset id="9" path="emblems/emblem-synchronizing.png" />
+  <asset id="10" path="emblems/emblem-synchronizing-bump.png" />
+  <asset id="11" path="emblems/emblem-synchronizing-color.png" />
+  <asset id="12" path="emblems/emblem-mail.png" />
+  <asset id="13" path="tmp/flickr-7519763810-original.jpg" />
+  <asset id="14" path="fox-goose/foreground-banks.png" />
+  <asset id="15" path="fox-goose/boat-back.png" />
+  <asset id="16" path="fox-goose/boat-front.png" />
+  <asset id="17" path="fox-goose/water.png" />
+  <asset id="18" path="fox-goose/background-bank.png" />
+  <asset id="19" path="fox-goose/sail.png" />
+  <asset id="20" path="fox-goose/tree1.png" />
+  <asset id="21" path="fox-goose/sun.png" />
+  <asset id="22" path="fox-goose/sky.png" />
+  <asset id="23" path="fox-goose/tree0.png" />
+  <asset id="24" path="contacts/2096871184_3dc2b99d21_n.jpg" />
+  <asset id="25" path="contacts/3646276802_fcf94cd509_n.jpg" />
+  <asset id="26" path="contacts/188275998_3ececa58e7.jpg" />
+  <asset id="27" path="contacts/397642272_cedf622248.jpg" />
+  <asset id="28" path="contacts/6345793687_d777d31409_n.jpg" />
+  <asset id="29" path="contacts/6356862357_b8ac66defd_n.jpg" />
+  <asset id="30" path="contacts/6369597729_40040acb01_n.jpg" />
+  <asset id="31" path="contacts/6387282279_55dbe5d6ca_n.jpg" />
+  <asset id="32" path="contacts/1546923312_5d25fc857e.jpg" />
+  <asset id="33" path="contacts/5388130101_d4532be3c6_n.jpg" />
+  <asset id="34" path="contacts/5388752748_ce53acd8bb_n.jpg" />
+  <asset id="35" path="contacts/5388139473_73d28e7122_n.jpg" />
+  <asset id="36" path="contacts/6232601591_aa3150f73c_n.jpg" />
+  <asset id="37" path="contacts/6233122904_fdb2777fe8_n.jpg" />
+  <asset id="38" path="contacts/5328057917_0c3bdbc5f6_n.jpg" />
+  <asset id="39" path="contacts/flickr-7519763810-original.jpg" />
+  <asset id="40" path="alpha-masks/block.png" />
+  <asset id="41" path="alpha-masks/swipe.png" />
+  <asset id="42" path="blue.png" />
+  <asset id="43" path="red.png" />
+  <asset id="44" path="yellow.png" />
+  <entity id="45"
+          position="(463.349731, 356.054779, -133.000000)"
+          scale="1.000000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="23"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="46"
+          position="(900.072266, 373.730377, -282.000000)"
+          scale="1.000000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="20"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="47"
+          label="light"
+          position="(975.109375, -68.458374, 135.000000)"
+          scale="1.000000"
+          rotation="[28.871429 (0.772730, 0.544689, -0.325888)]]"
+          cast_shadow="no">
+    <light ambient="#333333ff" diffuse="#999999ff" specular="#666666ff"/>
+  </entity>
+  <entity id="48"
+          label="water"
+          position="(656.856750, 659.967773, -1.050146)"
+          scale="1.700000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="17"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="49"
+          label="back bank"
+          position="(647.661011, 612.826782, -100.100227)"
+          scale="1.800000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="no">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="18"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="50"
+          label="tree0"
+          position="(532.821533, 351.573853, -421.721375)"
+          scale="1.000000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="20"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="51"
+          label="background"
+          position="(631.063232, 272.435791, -647.501465)"
+          scale="1.700000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="no">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="22"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="52"
+          label="sun"
+          position="(1034.014771, 267.044647, -110.000000)"
+          scale="1.000000"
+          rotation="[6.541637 (0.381362, 0.911480, -0.154168)]]"
+          cast_shadow="no">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="21"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="53"
+          label="tree1"
+          position="(676.064575, 347.723053, -528.843994)"
+          scale="1.000000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="23"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="54"
+          label="side banks"
+          position="(614.113342, 630.167847, 28.227657)"
+          scale="1.700000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="14"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="55"
+          label="boat front"
+          position="(785.713440, 573.309082, -10.605389)"
+          scale="1.500000"
+          rotation="[5.293569 (0.842438, -0.534329, -0.069214)]]"
+          cast_shadow="no">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="16"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="56"
+          label="boat back"
+          position="(792.721680, 563.778259, -15.100553)"
+          scale="1.500000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="no">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="15"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <entity id="57"
+          label="sail"
+          position="(790.811401, 532.198120, -13.215081)"
+          scale="1.700000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="19"/>
+    </material>
+    <shape shaped="false"/>
+  </entity>
+  <transition id="0">
+    <property entity="55" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(1613.542358, 468.126312, -10.605389)" />
+        <node t="0.732804" value="(785.713440, 573.309082, -10.605389)" />
+      </path>
+      <constant value="(565.405884, 630.320923, -5.119228)" />
+    </property>
+    <property entity="52" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(738.293762, -422.087646, -124.790512)" />
+        <node t="0.732804" value="(1034.014771, 267.044647, -110.000000)" />
+        <node t="0.768518" value="(1036.651611, 264.407806, -110.000000)" />
+        <node t="0.813492" value="(891.029480, 125.614136, -110.000000)" />
+        <node t="0.855820" value="(661.837097, 56.407806, -110.000000)" />
+        <node t="0.899471" value="(366.815918, 114.544662, -110.000000)" />
+        <node t="0.941799" value="(163.837097, 264.407806, -110.000000)" />
+      </path>
+      <constant value="(169.723328, 313.190582, -110.000000)" />
+    </property>
+    <property entity="46" name="rotation" animated="yes">
+      <path>
+      </path>
+      <constant value="[0.000000 (1.000000, 0.000000, 0.000000)]" />
+    </property>
+    <property entity="54" name="rotation" animated="yes">
+      <path>
+      </path>
+      <constant value="[0.000000 (1.000000, 0.000000, 0.000000)]" />
+    </property>
+    <property entity="49" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(631.889099, 897.114929, -95.349983)" />
+        <node t="0.732804" value="(647.661011, 612.826782, -100.100227)" />
+      </path>
+      <constant value="(389.566040, 593.700378, -100.000000)" />
+    </property>
+    <property entity="51" name="rotation" animated="yes">
+      <path>
+      </path>
+      <constant value="[0.000000 (1.000000, 0.000000, 0.000000)]" />
+    </property>
+    <property entity="48" name="rotation" animated="yes">
+      <path>
+      </path>
+      <constant value="[0.000000 (1.000000, 0.000000, 0.000000)]" />
+    </property>
+    <property entity="57" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(1622.249756, 424.027039, -13.383887)" />
+        <node t="0.732804" value="(790.811401, 532.198120, -13.215081)" />
+      </path>
+      <constant value="(733.932983, 528.852173, -12.304881)" />
+    </property>
+    <property entity="46" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(900.072266, -194.269623, -282.000000)" />
+        <node t="0.732804" value="(900.072266, 373.730377, -282.000000)" />
+      </path>
+      <constant value="(901.072266, -154.716553, -282.000000)" />
+    </property>
+    <property entity="54" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(-674.386719, 587.781067, 27.474964)" />
+        <node t="0.732804" value="(614.113342, 630.167847, 28.227657)" />
+      </path>
+      <constant value="(384.289368, 626.381104, 30.000000)" />
+    </property>
+    <property entity="51" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(645.434143, -447.440308, -535.501465)" />
+        <node t="0.732804" value="(631.063232, 272.435791, -647.501465)" />
+      </path>
+      <constant value="(392.159180, 413.956238, -130.000000)" />
+    </property>
+    <property entity="45" name="rotation" animated="yes">
+      <path>
+      </path>
+      <constant value="[0.000000 (1.000000, 0.000000, 0.000000)]" />
+    </property>
+    <property entity="48" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(634.561829, 1241.958984, 7.249949)" />
+        <node t="0.732804" value="(656.856750, 659.967773, -1.050146)" />
+      </path>
+      <constant value="(999.359070, 608.928650, 0.688719)" />
+    </property>
+    <property entity="47" name="rotation" animated="yes">
+      <path>
+        <node t="0.000000" value="[39.314419 (0.603821, -0.793585, -0.074987)]" />
+        <node t="0.732804" value="[28.871429 (0.772730, 0.544689, -0.325888)]" />
+        <node t="0.855820" value="[22.281343 (0.986288, -0.020858, -0.163711)]" />
+        <node t="0.941799" value="[25.216787 (0.733209, -0.677812, 0.054553)]" />
+      </path>
+      <constant value="[28.212118 (0.701674, -0.701674, -0.123724)]" />
+    </property>
+    <property entity="56" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(1612.094971, 459.521179, -15.170735)" />
+        <node t="0.732804" value="(792.721680, 563.778259, -15.100553)" />
+      </path>
+      <constant value="(495.519867, 560.593567, -14.910799)" />
+    </property>
+    <property entity="45" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(426.433533, -234.604401, -133.000000)" />
+        <node t="0.732804" value="(463.349731, 356.054779, -133.000000)" />
+      </path>
+      <constant value="(429.433533, -234.604401, -133.000000)" />
+    </property>
+    <property entity="53" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(539.939941, -166.392822, -99.843979)" />
+        <node t="0.732804" value="(676.064575, 347.723053, -528.843994)" />
+      </path>
+      <constant value="(478.012695, 400.339264, -100.000000)" />
+    </property>
+    <property entity="50" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(303.409973, -151.428864, -107.817810)" />
+        <node t="0.732804" value="(532.821533, 351.573853, -421.721375)" />
+      </path>
+      <constant value="(310.957062, 404.171692, -100.122612)" />
+    </property>
+    <property entity="47" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(56.316467, -81.219589, 500.000000)" />
+        <node t="0.732804" value="(975.109375, -68.458374, 135.000000)" />
+        <node t="0.855820" value="(690.323975, -97.463623, 135.000000)" />
+        <node t="0.941799" value="(271.056580, -129.105713, 135.000000)" />
+      </path>
+      <constant value="(-8.169983, 2.723396, 500.000000)" />
+    </property>
+    <property entity="52" name="rotation" animated="no">
+      <path>
+      </path>
+      <constant value="[6.541637 (0.381362, 0.911480, -0.154168)]" />
+    </property>
+    <property entity="49" name="rotation" animated="yes">
+      <path>
+      </path>
+      <constant value="[0.000000 (1.000000, 0.000000, 0.000000)]" />
+    </property>
+  </transition>
+</ui>
