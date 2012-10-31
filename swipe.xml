@@ -1,0 +1,125 @@
+<ui>
+  <device width="720" height="1280" background="#000000ff" />
+  <asset id="1" path="fonts.png" />
+  <asset id="2" path="circle.png" />
+  <asset id="3" path="diamond.png" />
+  <asset id="4" path="apps/camera-photo.png" />
+  <asset id="5" path="apps/audio-input-microphone.png" />
+  <asset id="6" path="apps/web-browser.png" />
+  <asset id="7" path="apps/system-software-update.png" />
+  <asset id="8" path="apps/config-users.png" />
+  <asset id="9" path="apps/accessories-text-editor.png" />
+  <asset id="10" path="apps/accessories-calculator.png" />
+  <asset id="11" path="emblems/normal-maps/emblem-synchronizing.png" />
+  <asset id="12" path="emblems/emblem-synchronizing.png" />
+  <asset id="13" path="emblems/emblem-synchronizing-bump.png" />
+  <asset id="14" path="emblems/emblem-synchronizing-color.png" />
+  <asset id="15" path="emblems/emblem-mail.png" />
+  <asset id="16" path="tmp/flickr-7519763810-original.jpg" />
+  <asset id="17" path="fox-goose/foreground-banks.png" />
+  <asset id="18" path="fox-goose/boat-back.png" />
+  <asset id="19" path="fox-goose/boat-front.png" />
+  <asset id="20" path="fox-goose/water.png" />
+  <asset id="21" path="fox-goose/background-bank.png" />
+  <asset id="22" path="fox-goose/sail.png" />
+  <asset id="23" path="fox-goose/tree1.png" />
+  <asset id="24" path="fox-goose/sun.png" />
+  <asset id="25" path="fox-goose/sky.png" />
+  <asset id="26" path="fox-goose/tree0.png" />
+  <asset id="27" path="contacts/2096871184_3dc2b99d21_n.jpg" />
+  <asset id="28" path="contacts/3646276802_fcf94cd509_n.jpg" />
+  <asset id="29" path="contacts/188275998_3ececa58e7.jpg" />
+  <asset id="30" path="contacts/397642272_cedf622248.jpg" />
+  <asset id="31" path="contacts/6345793687_d777d31409_n.jpg" />
+  <asset id="32" path="contacts/6356862357_b8ac66defd_n.jpg" />
+  <asset id="33" path="contacts/6369597729_40040acb01_n.jpg" />
+  <asset id="34" path="contacts/6387282279_55dbe5d6ca_n.jpg" />
+  <asset id="35" path="contacts/1546923312_5d25fc857e.jpg" />
+  <asset id="36" path="contacts/5388130101_d4532be3c6_n.jpg" />
+  <asset id="37" path="contacts/5388752748_ce53acd8bb_n.jpg" />
+  <asset id="38" path="contacts/5388139473_73d28e7122_n.jpg" />
+  <asset id="39" path="contacts/6232601591_aa3150f73c_n.jpg" />
+  <asset id="40" path="contacts/6233122904_fdb2777fe8_n.jpg" />
+  <asset id="41" path="contacts/5328057917_0c3bdbc5f6_n.jpg" />
+  <asset id="42" path="contacts/flickr-7519763810-original.jpg" />
+  <asset id="43" path="alpha-masks/block.png" />
+  <asset id="44" path="alpha-masks/swipe.png" />
+  <asset id="45" path="cube.ply" />
+  <asset id="46" path="blue.png" />
+  <asset id="47" path="red.png" />
+  <asset id="48" path="yellow.png" />
+  <asset id="49" path="gnome.ply" />
+  <entity id="50"
+          label="light"
+          position="(-179.738647, 32.680756, 500.000000)"
+          scale="1.000000"
+          rotation="[12.764660 (0.356341, -0.858486, -0.368793)]]"
+          cast_shadow="no">
+    <light ambient="#333333ff" diffuse="#999999ff" specular="#666666ff"/>
+  </entity>
+  <entity id="51"
+          position="(177.127930, 485.615845, 0.000000)"
+          scale="1.600000"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="no">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="28"/>
+      <alpha_mask asset="44"/>
+    </material>
+    <shape shaped="true"/>
+  </entity>
+  <entity id="52"
+          position="(533.820068, 487.487915, 0.000000)"
+          scale="1.700000"
+          rotation="[3.066035 (-0.692047, -0.666697, 0.276714)]]"
+          cast_shadow="no">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="37"/>
+      <alpha_mask asset="43"/>
+    </material>
+    <shape shaped="true"/>
+  </entity>
+  <transition id="0">
+    <property entity="52" name="scale" animated="no">
+      <constant value="1.700000" />
+    </property>
+    <property entity="0" name="alpha-mask-threshold" animated="yes">
+      <path>
+        <node t="0.000000" value="0.000000" />
+        <node t="0.542071" value="1.000000" />
+      </path>
+      <constant value="0.000000" />
+    </property>
+    <property entity="52" name="rotation" animated="no">
+      <constant value="[3.066035 (-0.692047, -0.666697, 0.276714)]" />
+    </property>
+    <property entity="51" name="position" animated="no">
+      <constant value="(177.127930, 485.615845, 0.000000)" />
+    </property>
+    <property entity="50" name="rotation" animated="no">
+      <constant value="[12.764660 (0.356341, -0.858486, -0.368793)]" />
+    </property>
+    <property entity="0" name="alpha-mask-threshold" animated="yes">
+      <path>
+        <node t="0.000000" value="0.000000" />
+        <node t="0.542071" value="1.000000" />
+      </path>
+      <constant value="0.000000" />
+    </property>
+    <property entity="51" name="scale" animated="no">
+      <constant value="1.600000" />
+    </property>
+    <property entity="52" name="position" animated="no">
+      <constant value="(533.820068, 487.487915, 0.000000)" />
+    </property>
+    <property entity="50" name="position" animated="no">
+      <constant value="(-179.738647, 32.680756, 500.000000)" />
+    </property>
+  </transition>
+</ui>
