@@ -1,0 +1,192 @@
+<ui>
+  <device width="720" height="1280" background="#000000ff" />
+  <asset id="1" path="fonts.png" />
+  <asset id="2" path="circle.png" />
+  <asset id="3" path="diamond.png" />
+  <asset id="4" path="apps/camera-photo.png" />
+  <asset id="5" path="apps/audio-input-microphone.png" />
+  <asset id="6" path="apps/web-browser.png" />
+  <asset id="7" path="apps/system-software-update.png" />
+  <asset id="8" path="apps/config-users.png" />
+  <asset id="9" path="apps/accessories-text-editor.png" />
+  <asset id="10" path="apps/accessories-calculator.png" />
+  <asset id="11" path="emblems/normal-maps/emblem-synchronizing.png" />
+  <asset id="12" path="emblems/emblem-synchronizing.png" />
+  <asset id="13" path="emblems/emblem-synchronizing-bump.png" />
+  <asset id="14" path="emblems/emblem-synchronizing-color.png" />
+  <asset id="15" path="emblems/emblem-mail.png" />
+  <asset id="16" path="tmp/flickr-7519763810-original.jpg" />
+  <asset id="17" path="blue.png" />
+  <asset id="18" path="red.png" />
+  <asset id="19" path="yellow.png" />
+  <asset id="21" path="alpha-masks/swipe.png" />
+  <asset id="22" path="alpha-masks/block.png" />
+  <asset id="23" path="contacts/flickr-7519763810-original.jpg" />
+  <asset id="24" path="contacts/5328057917_0c3bdbc5f6_n.jpg" />
+  <asset id="25" path="contacts/6233122904_fdb2777fe8_n.jpg" />
+  <asset id="26" path="contacts/6232601591_aa3150f73c_n.jpg" />
+  <asset id="27" path="contacts/5388139473_73d28e7122_n.jpg" />
+  <asset id="28" path="contacts/5388752748_ce53acd8bb_n.jpg" />
+  <asset id="29" path="contacts/5388130101_d4532be3c6_n.jpg" />
+  <asset id="30" path="contacts/1546923312_5d25fc857e.jpg" />
+  <asset id="31" path="contacts/6387282279_55dbe5d6ca_n.jpg" />
+  <asset id="32" path="contacts/6369597729_40040acb01_n.jpg" />
+  <asset id="33" path="contacts/6356862357_b8ac66defd_n.jpg" />
+  <asset id="34" path="contacts/6345793687_d777d31409_n.jpg" />
+  <asset id="35" path="contacts/397642272_cedf622248.jpg" />
+  <asset id="36" path="contacts/188275998_3ececa58e7.jpg" />
+  <asset id="37" path="contacts/3646276802_fcf94cd509_n.jpg" />
+  <asset id="38" path="contacts/2096871184_3dc2b99d21_n.jpg" />
+  <asset id="39" path="fox-goose/tree0.png" />
+  <asset id="40" path="fox-goose/sky.png" />
+  <asset id="41" path="fox-goose/sun.png" />
+  <asset id="42" path="fox-goose/tree1.png" />
+  <asset id="43" path="fox-goose/sail.png" />
+  <asset id="44" path="fox-goose/background-bank.png" />
+  <asset id="45" path="fox-goose/water.png" />
+  <asset id="46" path="fox-goose/boat-front.png" />
+  <asset id="47" path="fox-goose/boat-back.png" />
+  <asset id="48" path="fox-goose/foreground-banks.png" />
+  <entity id="49"
+          position="(361.960449, 1383.690430, 0.000000)"
+          scale="0.500000"
+          rotation="[3.754020 (-0.220285, -0.968678, 0.114617)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="36"/>
+    </material>
+    <shape shaped="true"/>
+  </entity>
+  <entity id="50"
+          position="(338.248505, 295.988007, 87.000000)"
+          scale="1.689474"
+          rotation="[0.000000 (1.000000, 0.000000, 0.000000)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="37"/>
+    </material>
+    <shape shaped="true"/>
+  </entity>
+  <entity id="51"
+          label="bubble 0"
+          position="(569.601257, 423.294922, 0.000000)"
+          scale="1.400000"
+          rotation="[2.831919 (-0.316188, -0.938451, 0.139046)]]"
+          cast_shadow="no">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="26"/>
+    </material>
+    <shape shaped="true"/>
+  </entity>
+  <entity id="52"
+          label="light"
+          position="(0.000000, 0.000000, 500.000000)"
+          scale="1.000000"
+          rotation="[28.212118 (0.701673, -0.701673, -0.123724)]]"
+          cast_shadow="no">
+    <light ambient="#333333ff" diffuse="#999999ff" specular="#666666ff"/>
+  </entity>
+  <entity id="53"
+          label="bubble 1"
+          position="(162.434067, 458.100677, 3.225845)"
+          scale="1.302581"
+          rotation="[3.199221 (-0.823128, -0.555314, 0.118689)]]"
+          cast_shadow="yes">
+    <material ambient="#3a3a3aff"
+              diffuse="#bfbfbfff"
+              specular="#a3a3a3ff"
+              shininess="100.000000">
+      <texture asset="24"/>
+    </material>
+    <shape shaped="true"/>
+  </entity>
+  <transition id="0">
+    <property entity="49" name="scale" animated="yes">
+      <path>
+        <node t="0.471795" value="0.500000" />
+        <node t="0.580769" value="1.100000" />
+      </path>
+      <constant value="1.000000" />
+    </property>
+    <property entity="51" name="scale" animated="yes">
+      <path>
+        <node t="0.000000" value="0.700000" />
+        <node t="0.142308" value="1.800000" />
+        <node t="0.165385" value="2.000000" />
+        <node t="0.184615" value="1.800000" />
+        <node t="0.246154" value="1.800000" />
+        <node t="0.307692" value="1.400000" />
+      </path>
+      <constant value="1.000000" />
+    </property>
+    <property entity="53" name="position" animated="yes">
+      <path>
+        <node t="0.178205" value="(372.207520, 1372.226562, 0.000000)" />
+        <node t="0.282051" value="(343.377258, 502.077148, 76.990318)" />
+        <node t="0.307692" value="(340.000000, 290.000000, 100.000000)" />
+        <node t="0.385897" value="(340.000000, 290.000000, 100.000000)" />
+        <node t="0.425641" value="(156.515137, 463.704102, 0.000000)" />
+        <node t="0.580769" value="(100.958008, 659.788086, -87.000000)" />
+      </path>
+      <constant value="(372.207520, 1375.494629, 0.000000)" />
+    </property>
+    <property entity="53" name="scale" animated="yes">
+      <path>
+        <node t="0.000000" value="0.700000" />
+        <node t="0.142308" value="0.700000" />
+        <node t="0.307692" value="1.500000" />
+        <node t="0.385897" value="1.380000" />
+        <node t="0.425641" value="1.300000" />
+        <node t="0.580769" value="1.100000" />
+      </path>
+      <constant value="0.700000" />
+    </property>
+    <property entity="50" name="position" animated="yes">
+      <path>
+        <node t="0.328205" value="(335.023438, 1382.834839, 87.000000)" />
+        <node t="0.425641" value="(338.291504, 281.496582, 87.000000)" />
+        <node t="0.580769" value="(155.279785, 428.559570, 34.000000)" />
+      </path>
+      <constant value="(354.631836, 1392.639160, 0.000000)" />
+    </property>
+    <property entity="51" name="label" animated="no">
+      <constant value="bubble 0" />
+    </property>
+    <property entity="50" name="scale" animated="yes">
+      <path>
+        <node t="0.328205" value="0.900000" />
+        <node t="0.425641" value="1.700000" />
+        <node t="0.580769" value="1.400000" />
+      </path>
+      <constant value="1.000000" />
+    </property>
+    <property entity="49" name="position" animated="yes">
+      <path>
+        <node t="0.471795" value="(361.960449, 1383.690430, 0.000000)" />
+        <node t="0.580769" value="(345.620117, 282.352051, 75.000000)" />
+      </path>
+      <constant value="(339.083984, 1507.876953, 0.000000)" />
+    </property>
+    <property entity="51" name="position" animated="yes">
+      <path>
+        <node t="0.000000" value="(389.857605, 1367.766113, 0.000000)" />
+        <node t="0.142308" value="(350.000000, 300.000000, 0.000000)" />
+        <node t="0.246154" value="(350.000000, 300.000000, 0.000000)" />
+        <node t="0.307692" value="(569.601257, 423.294922, 0.000000)" />
+      </path>
+      <constant value="(380.053406, 1420.055176, 0.000000)" />
+    </property>
+    <property entity="53" name="label" animated="no">
+      <constant value="bubble 1" />
+    </property>
+  </transition>
+</ui>
